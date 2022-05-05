@@ -118,7 +118,7 @@ class HomeScreen extends StatelessWidget {
                                       padding: EdgeInsets.all(12),
                                       decoration: BoxDecoration(
                                           borderRadius: BorderRadius.all(
-                                              Radius.circular(80)),
+                                              Radius.circular(10)),
                                           color: Color(0xFF85B9DB)
                                               .withOpacity(0.5)),
                                       child: Image.network(
