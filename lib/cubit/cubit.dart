@@ -11,7 +11,7 @@ class NewsCubit extends Cubit<NewsStates> {
     BottomNavigationBarItem(icon: Icon(Icons.sports), label: 'Sport'),
     BottomNavigationBarItem(icon: Icon(Icons.science), label: 'Science'),
     BottomNavigationBarItem(icon: Icon(Icons.business), label: 'Business'),
-    BottomNavigationBarItem(icon: Icon(Icons.book), label: 'Book'),
+    // BottomNavigationBarItem(icon: Icon(Icons.book), label: 'Book'),
   ];
 
   void changeBottomNavIndex(index) {

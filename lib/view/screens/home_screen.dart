@@ -94,14 +94,9 @@ class HomeScreen extends StatelessWidget {
                                   return NewsScreen(
                                     categoryName: "Science",
                                   );
-                                } else if (categories[index]['name'] ==
-                                    "Technology") {
-                                  return NewsScreen(
-                                    categoryName: "Technology",
-                                  );
                                 } else {
                                   return NewsScreen(
-                                    categoryName: "Buiseness",
+                                    categoryName: "Business",
                                   );
                                 }
                               }));

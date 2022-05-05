@@ -36,14 +36,14 @@ class NewsGetBuisnessErrorState extends NewsStates {
   NewsGetBuisnessErrorState(this.error);
 }
 
-class NewsTechnologyLoadingState extends NewsStates {}
-
-class NewsGetTechnologySuccessState extends NewsStates {}
-
-class NewsGetTechnologyErrorState extends NewsStates {
-  final String error;
-  NewsGetTechnologyErrorState(this.error);
-}
+// class NewsTechnologyLoadingState extends NewsStates {}
+//
+// class NewsGetTechnologySuccessState extends NewsStates {}
+//
+// class NewsGetTechnologyErrorState extends NewsStates {
+//   final String error;
+//   NewsGetTechnologyErrorState(this.error);
+// }
 
 class NewsSearchLoadingState extends NewsStates {}
 
